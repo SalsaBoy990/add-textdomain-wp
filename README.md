@@ -38,9 +38,10 @@ Example for Hungarian language:
 3. Copy `wp-cli.phar` to that folder
 4. Create a `wp.bat` file in that folder with the content:
 
-
+````
   @ECHO OFF
   php "c:/wp-cli/wp-cli.phar" %*
+````
 
 
 5. Add PATH env variable: "C:\wp-cli"
